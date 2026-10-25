@@ -1,0 +1,12 @@
+# Versions used for the article (Python 3.12.2, Windows 11, CPU only).
+# threadpoolctl, openpyxl, psutil, and matplotlib do not affect the results and were not recorded;
+# `python -m lorabench env` writes the exact versions of any environment to reproducibility/.
+numpy==2.5.2
+pandas==3.0.5
+scipy==1.18.1
+scikit-learn==1.9.0
+xgboost==3.4.1
+threadpoolctl>=3.1
+openpyxl>=3.1
+psutil>=5.9
+matplotlib>=3.7

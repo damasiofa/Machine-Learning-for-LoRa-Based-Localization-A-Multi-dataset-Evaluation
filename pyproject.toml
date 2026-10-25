@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lorabench"
+version = "1.0.0"
+description = "Equal-footing benchmark of machine-learning methods for LoRaWAN fingerprinting-based localization"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Antônio D. F. Araújo"},
+    {name = "Joel J. P. C. Rodrigues"},
+    {name = "Fábio Rocha Barbosa"},
+    {name = "Mohammed A. Al-Betar"},
+]
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "scipy>=1.11",
+    "scikit-learn>=1.4",
+    "threadpoolctl>=3.1",
+    "xgboost>=2.0",
+    "openpyxl>=3.1",
+    "psutil>=5.9",
+    "matplotlib>=3.7",
+]
+
+[project.scripts]
+lorabench = "lorabench.__main__:main"
+
+[tool.setuptools]
+packages = ["lorabench"]
+
+[tool.setuptools.package-data]
+lorabench = ["reference_values.json"]

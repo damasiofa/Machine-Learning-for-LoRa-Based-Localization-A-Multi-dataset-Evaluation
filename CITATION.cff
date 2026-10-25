@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below and the three datasets listed in datasets/README.md."
+title: "lorabench: equal-footing benchmark of machine-learning methods for LoRaWAN fingerprinting-based localization"
+version: 1.0.0
+date-released: 2026-10-25
+license: MIT
+authors:
+  - family-names: "Araújo"
+    given-names: "Antônio D. F."
+    affiliation: "Federal University of Piauí (UFPI)"
+  - family-names: "Rodrigues"
+    given-names: "Joel J. P. C."
+    affiliation: "Federal University of Piauí (UFPI)"
+  - family-names: "Barbosa"
+    given-names: "Fábio Rocha"
+    affiliation: "Federal University of Piauí (UFPI)"
+  - family-names: "Al-Betar"
+    given-names: "Mohammed A."
+    affiliation: "Ajman University"
+preferred-citation:
+  type: article
+  title: "Machine Learning for LoRaWAN Fingerprinting-Based Localization: An Equal-Footing Multi-Deployment Comparison of RSSI and Multi-Feature Representations"
+  authors:
+    - family-names: "Araújo"
+      given-names: "Antônio D. F."
+    - family-names: "Rodrigues"
+      given-names: "Joel J. P. C."
+    - family-names: "Barbosa"
+      given-names: "Fábio Rocha"
+    - family-names: "Al-Betar"
+      given-names: "Mohammed A."
+  journal: "IEEE Access"
+  year: 2026
+  status: submitted
