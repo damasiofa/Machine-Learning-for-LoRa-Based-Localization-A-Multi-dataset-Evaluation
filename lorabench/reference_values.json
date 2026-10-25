@@ -1,0 +1,1993 @@
+{
+ "source": "IEEE Access manuscript, version of 2026-10-24 (Tables 3-6 from the LaTeX source; Figs. 4-7 from the figure files)",
+ "table_errors": {
+  "mean_error_m": {
+   "antwerp2019|random|RSSI_ONLY|kNN": 345.0,
+   "antwerp2019|random|COMMON_FULL|kNN": 324.0,
+   "antwerp2019|spatial|RSSI_ONLY|kNN": 514.0,
+   "antwerp2019|spatial|COMMON_FULL|kNN": 498.0,
+   "antwerp2019|random|RSSI_ONLY|WkNN": 346.0,
+   "antwerp2019|random|COMMON_FULL|WkNN": 331.0,
+   "antwerp2019|spatial|RSSI_ONLY|WkNN": 518.0,
+   "antwerp2019|spatial|COMMON_FULL|WkNN": 507.0,
+   "antwerp2019|random|RSSI_ONLY|RF": 336.0,
+   "antwerp2019|random|COMMON_FULL|RF": 313.0,
+   "antwerp2019|spatial|RSSI_ONLY|RF": 515.0,
+   "antwerp2019|spatial|COMMON_FULL|RF": 498.0,
+   "antwerp2019|random|RSSI_ONLY|XGBoost": 329.0,
+   "antwerp2019|random|COMMON_FULL|XGBoost": 314.0,
+   "antwerp2019|spatial|RSSI_ONLY|XGBoost": 479.0,
+   "antwerp2019|spatial|COMMON_FULL|XGBoost": 472.0,
+   "antwerp2019|random|RSSI_ONLY|MLP": 353.0,
+   "antwerp2019|random|COMMON_FULL|MLP": 321.0,
+   "antwerp2019|spatial|RSSI_ONLY|MLP": 509.0,
+   "antwerp2019|spatial|COMMON_FULL|MLP": 486.0,
+   "antwerp2019|random|RSSI_ONLY|ELM": 386.0,
+   "antwerp2019|random|COMMON_FULL|ELM": 365.0,
+   "antwerp2019|spatial|RSSI_ONLY|ELM": 548.0,
+   "antwerp2019|spatial|COMMON_FULL|ELM": 525.0,
+   "bonn|random|RSSI_ONLY|kNN": 1782.0,
+   "bonn|random|COMMON_FULL|kNN": 1632.0,
+   "bonn|spatial|RSSI_ONLY|kNN": 2400.0,
+   "bonn|spatial|COMMON_FULL|kNN": 2262.0,
+   "bonn|random|RSSI_ONLY|WkNN": 1849.0,
+   "bonn|random|COMMON_FULL|WkNN": 1708.0,
+   "bonn|spatial|RSSI_ONLY|WkNN": 2468.0,
+   "bonn|spatial|COMMON_FULL|WkNN": 2339.0,
+   "bonn|random|RSSI_ONLY|RF": 1762.0,
+   "bonn|random|COMMON_FULL|RF": 1624.0,
+   "bonn|spatial|RSSI_ONLY|RF": 2361.0,
+   "bonn|spatial|COMMON_FULL|RF": 2250.0,
+   "bonn|random|RSSI_ONLY|XGBoost": 1760.0,
+   "bonn|random|COMMON_FULL|XGBoost": 1631.0,
+   "bonn|spatial|RSSI_ONLY|XGBoost": 2369.0,
+   "bonn|spatial|COMMON_FULL|XGBoost": 2265.0,
+   "bonn|random|RSSI_ONLY|MLP": 1773.0,
+   "bonn|random|COMMON_FULL|MLP": 1619.0,
+   "bonn|spatial|RSSI_ONLY|MLP": 2350.0,
+   "bonn|spatial|COMMON_FULL|MLP": 2230.0,
+   "bonn|random|RSSI_ONLY|ELM": 1782.0,
+   "bonn|random|COMMON_FULL|ELM": 1638.0,
+   "bonn|spatial|RSSI_ONLY|ELM": 2363.0,
+   "bonn|spatial|COMMON_FULL|ELM": 2257.0,
+   "brno_iAG_BUT|random|RSSI_ONLY|kNN": 3.39,
+   "brno_iAG_BUT|random|COMMON_FULL|kNN": 4.24,
+   "brno_iAG_BUT|spatial|RSSI_ONLY|kNN": 7.52,
+   "brno_iAG_BUT|spatial|COMMON_FULL|kNN": 8.46,
+   "brno_iAG_BUT|random|RSSI_ONLY|WkNN": 3.28,
+   "brno_iAG_BUT|random|COMMON_FULL|WkNN": 4.04,
+   "brno_iAG_BUT|spatial|RSSI_ONLY|WkNN": 7.38,
+   "brno_iAG_BUT|spatial|COMMON_FULL|WkNN": 8.39,
+   "brno_iAG_BUT|random|RSSI_ONLY|RF": 2.91,
+   "brno_iAG_BUT|random|COMMON_FULL|RF": 3.07,
+   "brno_iAG_BUT|spatial|RSSI_ONLY|RF": 6.14,
+   "brno_iAG_BUT|spatial|COMMON_FULL|RF": 6.45,
+   "brno_iAG_BUT|random|RSSI_ONLY|XGBoost": 2.87,
+   "brno_iAG_BUT|random|COMMON_FULL|XGBoost": 3.06,
+   "brno_iAG_BUT|spatial|RSSI_ONLY|XGBoost": 6.21,
+   "brno_iAG_BUT|spatial|COMMON_FULL|XGBoost": 6.52,
+   "brno_iAG_BUT|random|RSSI_ONLY|MLP": 3.65,
+   "brno_iAG_BUT|random|COMMON_FULL|MLP": 4.09,
+   "brno_iAG_BUT|spatial|RSSI_ONLY|MLP": 5.69,
+   "brno_iAG_BUT|spatial|COMMON_FULL|MLP": 6.27,
+   "brno_iAG_BUT|random|RSSI_ONLY|ELM": 4.14,
+   "brno_iAG_BUT|random|COMMON_FULL|ELM": 4.91,
+   "brno_iAG_BUT|spatial|RSSI_ONLY|ELM": 6.19,
+   "brno_iAG_BUT|spatial|COMMON_FULL|ELM": 7.66,
+   "brno_iUG_BUT|random|RSSI_ONLY|kNN": 7.07,
+   "brno_iUG_BUT|random|COMMON_FULL|kNN": 9.49,
+   "brno_iUG_BUT|spatial|RSSI_ONLY|kNN": 12.02,
+   "brno_iUG_BUT|spatial|COMMON_FULL|kNN": 16.15,
+   "brno_iUG_BUT|random|RSSI_ONLY|WkNN": 6.6,
+   "brno_iUG_BUT|random|COMMON_FULL|WkNN": 9.09,
+   "brno_iUG_BUT|spatial|RSSI_ONLY|WkNN": 10.35,
+   "brno_iUG_BUT|spatial|COMMON_FULL|WkNN": 15.58,
+   "brno_iUG_BUT|random|RSSI_ONLY|RF": 6.14,
+   "brno_iUG_BUT|random|COMMON_FULL|RF": 6.45,
+   "brno_iUG_BUT|spatial|RSSI_ONLY|RF": 9.14,
+   "brno_iUG_BUT|spatial|COMMON_FULL|RF": 9.72,
+   "brno_iUG_BUT|random|RSSI_ONLY|XGBoost": 6.36,
+   "brno_iUG_BUT|random|COMMON_FULL|XGBoost": 6.26,
+   "brno_iUG_BUT|spatial|RSSI_ONLY|XGBoost": 9.43,
+   "brno_iUG_BUT|spatial|COMMON_FULL|XGBoost": 9.31,
+   "brno_iUG_BUT|random|RSSI_ONLY|MLP": 6.9,
+   "brno_iUG_BUT|random|COMMON_FULL|MLP": 8.53,
+   "brno_iUG_BUT|spatial|RSSI_ONLY|MLP": 10.49,
+   "brno_iUG_BUT|spatial|COMMON_FULL|MLP": 11.39,
+   "brno_iUG_BUT|random|RSSI_ONLY|ELM": 12.04,
+   "brno_iUG_BUT|random|COMMON_FULL|ELM": 12.58,
+   "brno_iUG_BUT|spatial|RSSI_ONLY|ELM": 13.91,
+   "brno_iUG_BUT|spatial|COMMON_FULL|ELM": 16.25,
+   "bucharest_iAG_UPB|random|RSSI_ONLY|kNN": 3.55,
+   "bucharest_iAG_UPB|random|COMMON_FULL|kNN": 4.27,
+   "bucharest_iAG_UPB|spatial|RSSI_ONLY|kNN": 4.53,
+   "bucharest_iAG_UPB|spatial|COMMON_FULL|kNN": 4.92,
+   "bucharest_iAG_UPB|random|RSSI_ONLY|WkNN": 3.44,
+   "bucharest_iAG_UPB|random|COMMON_FULL|WkNN": 4.21,
+   "bucharest_iAG_UPB|spatial|RSSI_ONLY|WkNN": 4.43,
+   "bucharest_iAG_UPB|spatial|COMMON_FULL|WkNN": 4.91,
+   "bucharest_iAG_UPB|random|RSSI_ONLY|RF": 2.81,
+   "bucharest_iAG_UPB|random|COMMON_FULL|RF": 2.97,
+   "bucharest_iAG_UPB|spatial|RSSI_ONLY|RF": 3.59,
+   "bucharest_iAG_UPB|spatial|COMMON_FULL|RF": 3.73,
+   "bucharest_iAG_UPB|random|RSSI_ONLY|XGBoost": 2.69,
+   "bucharest_iAG_UPB|random|COMMON_FULL|XGBoost": 2.79,
+   "bucharest_iAG_UPB|spatial|RSSI_ONLY|XGBoost": 3.54,
+   "bucharest_iAG_UPB|spatial|COMMON_FULL|XGBoost": 3.61,
+   "bucharest_iAG_UPB|random|RSSI_ONLY|MLP": 3.17,
+   "bucharest_iAG_UPB|random|COMMON_FULL|MLP": 3.5,
+   "bucharest_iAG_UPB|spatial|RSSI_ONLY|MLP": 3.7,
+   "bucharest_iAG_UPB|spatial|COMMON_FULL|MLP": 3.99,
+   "bucharest_iAG_UPB|random|RSSI_ONLY|ELM": 4.01,
+   "bucharest_iAG_UPB|random|COMMON_FULL|ELM": 3.89,
+   "bucharest_iAG_UPB|spatial|RSSI_ONLY|ELM": 4.78,
+   "bucharest_iAG_UPB|spatial|COMMON_FULL|ELM": 4.42
+  },
+  "median_error_m": {
+   "antwerp2019|random|RSSI_ONLY|kNN": 213.0,
+   "antwerp2019|random|COMMON_FULL|kNN": 192.0,
+   "antwerp2019|spatial|RSSI_ONLY|kNN": 359.0,
+   "antwerp2019|spatial|COMMON_FULL|kNN": 341.0,
+   "antwerp2019|random|RSSI_ONLY|WkNN": 209.0,
+   "antwerp2019|random|COMMON_FULL|WkNN": 184.0,
+   "antwerp2019|spatial|RSSI_ONLY|WkNN": 358.0,
+   "antwerp2019|spatial|COMMON_FULL|WkNN": 345.0,
+   "antwerp2019|random|RSSI_ONLY|RF": 222.0,
+   "antwerp2019|random|COMMON_FULL|RF": 195.0,
+   "antwerp2019|spatial|RSSI_ONLY|RF": 374.0,
+   "antwerp2019|spatial|COMMON_FULL|RF": 355.0,
+   "antwerp2019|random|RSSI_ONLY|XGBoost": 214.0,
+   "antwerp2019|random|COMMON_FULL|XGBoost": 204.0,
+   "antwerp2019|spatial|RSSI_ONLY|XGBoost": 329.0,
+   "antwerp2019|spatial|COMMON_FULL|XGBoost": 326.0,
+   "antwerp2019|random|RSSI_ONLY|MLP": 239.0,
+   "antwerp2019|random|COMMON_FULL|MLP": 209.0,
+   "antwerp2019|spatial|RSSI_ONLY|MLP": 367.0,
+   "antwerp2019|spatial|COMMON_FULL|MLP": 341.0,
+   "antwerp2019|random|RSSI_ONLY|ELM": 282.0,
+   "antwerp2019|random|COMMON_FULL|ELM": 262.0,
+   "antwerp2019|spatial|RSSI_ONLY|ELM": 384.0,
+   "antwerp2019|spatial|COMMON_FULL|ELM": 371.0,
+   "bonn|random|RSSI_ONLY|kNN": 1422.0,
+   "bonn|random|COMMON_FULL|kNN": 1241.0,
+   "bonn|spatial|RSSI_ONLY|kNN": 2124.0,
+   "bonn|spatial|COMMON_FULL|kNN": 1969.0,
+   "bonn|random|RSSI_ONLY|WkNN": 1480.0,
+   "bonn|random|COMMON_FULL|WkNN": 1255.0,
+   "bonn|spatial|RSSI_ONLY|WkNN": 2183.0,
+   "bonn|spatial|COMMON_FULL|WkNN": 1981.0,
+   "bonn|random|RSSI_ONLY|RF": 1394.0,
+   "bonn|random|COMMON_FULL|RF": 1227.0,
+   "bonn|spatial|RSSI_ONLY|RF": 2109.0,
+   "bonn|spatial|COMMON_FULL|RF": 1950.0,
+   "bonn|random|RSSI_ONLY|XGBoost": 1395.0,
+   "bonn|random|COMMON_FULL|XGBoost": 1234.0,
+   "bonn|spatial|RSSI_ONLY|XGBoost": 2119.0,
+   "bonn|spatial|COMMON_FULL|XGBoost": 1978.0,
+   "bonn|random|RSSI_ONLY|MLP": 1405.0,
+   "bonn|random|COMMON_FULL|MLP": 1219.0,
+   "bonn|spatial|RSSI_ONLY|MLP": 2104.0,
+   "bonn|spatial|COMMON_FULL|MLP": 1927.0,
+   "bonn|random|RSSI_ONLY|ELM": 1414.0,
+   "bonn|random|COMMON_FULL|ELM": 1252.0,
+   "bonn|spatial|RSSI_ONLY|ELM": 2122.0,
+   "bonn|spatial|COMMON_FULL|ELM": 1975.0,
+   "brno_iAG_BUT|random|RSSI_ONLY|kNN": 2.04,
+   "brno_iAG_BUT|random|COMMON_FULL|kNN": 2.81,
+   "brno_iAG_BUT|spatial|RSSI_ONLY|kNN": 6.92,
+   "brno_iAG_BUT|spatial|COMMON_FULL|kNN": 7.38,
+   "brno_iAG_BUT|random|RSSI_ONLY|WkNN": 2.01,
+   "brno_iAG_BUT|random|COMMON_FULL|WkNN": 2.67,
+   "brno_iAG_BUT|spatial|RSSI_ONLY|WkNN": 6.76,
+   "brno_iAG_BUT|spatial|COMMON_FULL|WkNN": 7.31,
+   "brno_iAG_BUT|random|RSSI_ONLY|RF": 2.12,
+   "brno_iAG_BUT|random|COMMON_FULL|RF": 2.25,
+   "brno_iAG_BUT|spatial|RSSI_ONLY|RF": 5.32,
+   "brno_iAG_BUT|spatial|COMMON_FULL|RF": 5.47,
+   "brno_iAG_BUT|random|RSSI_ONLY|XGBoost": 2.05,
+   "brno_iAG_BUT|random|COMMON_FULL|XGBoost": 2.17,
+   "brno_iAG_BUT|spatial|RSSI_ONLY|XGBoost": 5.47,
+   "brno_iAG_BUT|spatial|COMMON_FULL|XGBoost": 5.85,
+   "brno_iAG_BUT|random|RSSI_ONLY|MLP": 2.61,
+   "brno_iAG_BUT|random|COMMON_FULL|MLP": 3.14,
+   "brno_iAG_BUT|spatial|RSSI_ONLY|MLP": 4.65,
+   "brno_iAG_BUT|spatial|COMMON_FULL|MLP": 5.2,
+   "brno_iAG_BUT|random|RSSI_ONLY|ELM": 2.75,
+   "brno_iAG_BUT|random|COMMON_FULL|ELM": 3.45,
+   "brno_iAG_BUT|spatial|RSSI_ONLY|ELM": 4.57,
+   "brno_iAG_BUT|spatial|COMMON_FULL|ELM": 5.96,
+   "brno_iUG_BUT|random|RSSI_ONLY|kNN": 4.64,
+   "brno_iUG_BUT|random|COMMON_FULL|kNN": 6.18,
+   "brno_iUG_BUT|spatial|RSSI_ONLY|kNN": 9.4,
+   "brno_iUG_BUT|spatial|COMMON_FULL|kNN": 13.42,
+   "brno_iUG_BUT|random|RSSI_ONLY|WkNN": 4.26,
+   "brno_iUG_BUT|random|COMMON_FULL|WkNN": 5.72,
+   "brno_iUG_BUT|spatial|RSSI_ONLY|WkNN": 9.03,
+   "brno_iUG_BUT|spatial|COMMON_FULL|WkNN": 12.85,
+   "brno_iUG_BUT|random|RSSI_ONLY|RF": 4.56,
+   "brno_iUG_BUT|random|COMMON_FULL|RF": 4.52,
+   "brno_iUG_BUT|spatial|RSSI_ONLY|RF": 8.01,
+   "brno_iUG_BUT|spatial|COMMON_FULL|RF": 9.15,
+   "brno_iUG_BUT|random|RSSI_ONLY|XGBoost": 4.62,
+   "brno_iUG_BUT|random|COMMON_FULL|XGBoost": 4.38,
+   "brno_iUG_BUT|spatial|RSSI_ONLY|XGBoost": 7.99,
+   "brno_iUG_BUT|spatial|COMMON_FULL|XGBoost": 8.29,
+   "brno_iUG_BUT|random|RSSI_ONLY|MLP": 4.85,
+   "brno_iUG_BUT|random|COMMON_FULL|MLP": 5.89,
+   "brno_iUG_BUT|spatial|RSSI_ONLY|MLP": 8.46,
+   "brno_iUG_BUT|spatial|COMMON_FULL|MLP": 8.84,
+   "brno_iUG_BUT|random|RSSI_ONLY|ELM": 6.09,
+   "brno_iUG_BUT|random|COMMON_FULL|ELM": 8.04,
+   "brno_iUG_BUT|spatial|RSSI_ONLY|ELM": 9.36,
+   "brno_iUG_BUT|spatial|COMMON_FULL|ELM": 10.82,
+   "bucharest_iAG_UPB|random|RSSI_ONLY|kNN": 2.64,
+   "bucharest_iAG_UPB|random|COMMON_FULL|kNN": 3.28,
+   "bucharest_iAG_UPB|spatial|RSSI_ONLY|kNN": 3.79,
+   "bucharest_iAG_UPB|spatial|COMMON_FULL|kNN": 3.99,
+   "bucharest_iAG_UPB|random|RSSI_ONLY|WkNN": 2.54,
+   "bucharest_iAG_UPB|random|COMMON_FULL|WkNN": 3.22,
+   "bucharest_iAG_UPB|spatial|RSSI_ONLY|WkNN": 3.73,
+   "bucharest_iAG_UPB|spatial|COMMON_FULL|WkNN": 3.93,
+   "bucharest_iAG_UPB|random|RSSI_ONLY|RF": 2.33,
+   "bucharest_iAG_UPB|random|COMMON_FULL|RF": 2.46,
+   "bucharest_iAG_UPB|spatial|RSSI_ONLY|RF": 3.09,
+   "bucharest_iAG_UPB|spatial|COMMON_FULL|RF": 3.19,
+   "bucharest_iAG_UPB|random|RSSI_ONLY|XGBoost": 2.14,
+   "bucharest_iAG_UPB|random|COMMON_FULL|XGBoost": 2.23,
+   "bucharest_iAG_UPB|spatial|RSSI_ONLY|XGBoost": 2.95,
+   "bucharest_iAG_UPB|spatial|COMMON_FULL|XGBoost": 3.05,
+   "bucharest_iAG_UPB|random|RSSI_ONLY|MLP": 2.53,
+   "bucharest_iAG_UPB|random|COMMON_FULL|MLP": 2.84,
+   "bucharest_iAG_UPB|spatial|RSSI_ONLY|MLP": 3.05,
+   "bucharest_iAG_UPB|spatial|COMMON_FULL|MLP": 3.41,
+   "bucharest_iAG_UPB|random|RSSI_ONLY|ELM": 2.92,
+   "bucharest_iAG_UPB|random|COMMON_FULL|ELM": 3.19,
+   "bucharest_iAG_UPB|spatial|RSSI_ONLY|ELM": 3.48,
+   "bucharest_iAG_UPB|spatial|COMMON_FULL|ELM": 3.61
+  },
+  "p90_error_m": {
+   "antwerp2019|random|RSSI_ONLY|kNN": 853.0,
+   "antwerp2019|random|COMMON_FULL|kNN": 812.0,
+   "antwerp2019|spatial|RSSI_ONLY|kNN": 1057.0,
+   "antwerp2019|spatial|COMMON_FULL|kNN": 1035.0,
+   "antwerp2019|random|RSSI_ONLY|WkNN": 868.0,
+   "antwerp2019|random|COMMON_FULL|WkNN": 844.0,
+   "antwerp2019|spatial|RSSI_ONLY|WkNN": 1065.0,
+   "antwerp2019|spatial|COMMON_FULL|WkNN": 1059.0,
+   "antwerp2019|random|RSSI_ONLY|RF": 812.0,
+   "antwerp2019|random|COMMON_FULL|RF": 771.0,
+   "antwerp2019|spatial|RSSI_ONLY|RF": 1027.0,
+   "antwerp2019|spatial|COMMON_FULL|RF": 1021.0,
+   "antwerp2019|random|RSSI_ONLY|XGBoost": 795.0,
+   "antwerp2019|random|COMMON_FULL|XGBoost": 756.0,
+   "antwerp2019|spatial|RSSI_ONLY|XGBoost": 989.0,
+   "antwerp2019|spatial|COMMON_FULL|XGBoost": 972.0,
+   "antwerp2019|random|RSSI_ONLY|MLP": 829.0,
+   "antwerp2019|random|COMMON_FULL|MLP": 757.0,
+   "antwerp2019|spatial|RSSI_ONLY|MLP": 1040.0,
+   "antwerp2019|spatial|COMMON_FULL|MLP": 995.0,
+   "antwerp2019|random|RSSI_ONLY|ELM": 883.0,
+   "antwerp2019|random|COMMON_FULL|ELM": 834.0,
+   "antwerp2019|spatial|RSSI_ONLY|ELM": 1088.0,
+   "antwerp2019|spatial|COMMON_FULL|ELM": 1065.0,
+   "bonn|random|RSSI_ONLY|kNN": 3705.0,
+   "bonn|random|COMMON_FULL|kNN": 3559.0,
+   "bonn|spatial|RSSI_ONLY|kNN": 4442.0,
+   "bonn|spatial|COMMON_FULL|kNN": 4327.0,
+   "bonn|random|RSSI_ONLY|WkNN": 3869.0,
+   "bonn|random|COMMON_FULL|WkNN": 3758.0,
+   "bonn|spatial|RSSI_ONLY|WkNN": 4591.0,
+   "bonn|spatial|COMMON_FULL|WkNN": 4530.0,
+   "bonn|random|RSSI_ONLY|RF": 3690.0,
+   "bonn|random|COMMON_FULL|RF": 3530.0,
+   "bonn|spatial|RSSI_ONLY|RF": 4349.0,
+   "bonn|spatial|COMMON_FULL|RF": 4325.0,
+   "bonn|random|RSSI_ONLY|XGBoost": 3681.0,
+   "bonn|random|COMMON_FULL|XGBoost": 3540.0,
+   "bonn|spatial|RSSI_ONLY|XGBoost": 4351.0,
+   "bonn|spatial|COMMON_FULL|XGBoost": 4315.0,
+   "bonn|random|RSSI_ONLY|MLP": 3664.0,
+   "bonn|random|COMMON_FULL|MLP": 3519.0,
+   "bonn|spatial|RSSI_ONLY|MLP": 4291.0,
+   "bonn|spatial|COMMON_FULL|MLP": 4273.0,
+   "bonn|random|RSSI_ONLY|ELM": 3649.0,
+   "bonn|random|COMMON_FULL|ELM": 3518.0,
+   "bonn|spatial|RSSI_ONLY|ELM": 4307.0,
+   "bonn|spatial|COMMON_FULL|ELM": 4278.0,
+   "brno_iAG_BUT|random|RSSI_ONLY|kNN": 8.14,
+   "brno_iAG_BUT|random|COMMON_FULL|kNN": 9.47,
+   "brno_iAG_BUT|spatial|RSSI_ONLY|kNN": 13.33,
+   "brno_iAG_BUT|spatial|COMMON_FULL|kNN": 15.92,
+   "brno_iAG_BUT|random|RSSI_ONLY|WkNN": 7.71,
+   "brno_iAG_BUT|random|COMMON_FULL|WkNN": 9.01,
+   "brno_iAG_BUT|spatial|RSSI_ONLY|WkNN": 13.08,
+   "brno_iAG_BUT|spatial|COMMON_FULL|WkNN": 15.76,
+   "brno_iAG_BUT|random|RSSI_ONLY|RF": 6.42,
+   "brno_iAG_BUT|random|COMMON_FULL|RF": 6.67,
+   "brno_iAG_BUT|spatial|RSSI_ONLY|RF": 11.86,
+   "brno_iAG_BUT|spatial|COMMON_FULL|RF": 12.7,
+   "brno_iAG_BUT|random|RSSI_ONLY|XGBoost": 6.4,
+   "brno_iAG_BUT|random|COMMON_FULL|XGBoost": 6.7,
+   "brno_iAG_BUT|spatial|RSSI_ONLY|XGBoost": 11.88,
+   "brno_iAG_BUT|spatial|COMMON_FULL|XGBoost": 12.24,
+   "brno_iAG_BUT|random|RSSI_ONLY|MLP": 7.47,
+   "brno_iAG_BUT|random|COMMON_FULL|MLP": 7.99,
+   "brno_iAG_BUT|spatial|RSSI_ONLY|MLP": 10.91,
+   "brno_iAG_BUT|spatial|COMMON_FULL|MLP": 12.23,
+   "brno_iAG_BUT|random|RSSI_ONLY|ELM": 8.38,
+   "brno_iAG_BUT|random|COMMON_FULL|ELM": 9.78,
+   "brno_iAG_BUT|spatial|RSSI_ONLY|ELM": 11.4,
+   "brno_iAG_BUT|spatial|COMMON_FULL|ELM": 14.75,
+   "brno_iUG_BUT|random|RSSI_ONLY|kNN": 15.35,
+   "brno_iUG_BUT|random|COMMON_FULL|kNN": 20.59,
+   "brno_iUG_BUT|spatial|RSSI_ONLY|kNN": 26.84,
+   "brno_iUG_BUT|spatial|COMMON_FULL|kNN": 32.54,
+   "brno_iUG_BUT|random|RSSI_ONLY|WkNN": 14.02,
+   "brno_iUG_BUT|random|COMMON_FULL|WkNN": 19.72,
+   "brno_iUG_BUT|spatial|RSSI_ONLY|WkNN": 19.96,
+   "brno_iUG_BUT|spatial|COMMON_FULL|WkNN": 31.8,
+   "brno_iUG_BUT|random|RSSI_ONLY|RF": 12.8,
+   "brno_iUG_BUT|random|COMMON_FULL|RF": 13.62,
+   "brno_iUG_BUT|spatial|RSSI_ONLY|RF": 17.51,
+   "brno_iUG_BUT|spatial|COMMON_FULL|RF": 18.84,
+   "brno_iUG_BUT|random|RSSI_ONLY|XGBoost": 13.15,
+   "brno_iUG_BUT|random|COMMON_FULL|XGBoost": 13.02,
+   "brno_iUG_BUT|spatial|RSSI_ONLY|XGBoost": 17.92,
+   "brno_iUG_BUT|spatial|COMMON_FULL|XGBoost": 17.46,
+   "brno_iUG_BUT|random|RSSI_ONLY|MLP": 13.52,
+   "brno_iUG_BUT|random|COMMON_FULL|MLP": 17.27,
+   "brno_iUG_BUT|spatial|RSSI_ONLY|MLP": 20.17,
+   "brno_iUG_BUT|spatial|COMMON_FULL|MLP": 22.61,
+   "brno_iUG_BUT|random|RSSI_ONLY|ELM": 19.82,
+   "brno_iUG_BUT|random|COMMON_FULL|ELM": 26.99,
+   "brno_iUG_BUT|spatial|RSSI_ONLY|ELM": 25.85,
+   "brno_iUG_BUT|spatial|COMMON_FULL|ELM": 32.81,
+   "bucharest_iAG_UPB|random|RSSI_ONLY|kNN": 8.08,
+   "bucharest_iAG_UPB|random|COMMON_FULL|kNN": 9.34,
+   "bucharest_iAG_UPB|spatial|RSSI_ONLY|kNN": 8.25,
+   "bucharest_iAG_UPB|spatial|COMMON_FULL|kNN": 9.64,
+   "bucharest_iAG_UPB|random|RSSI_ONLY|WkNN": 7.74,
+   "bucharest_iAG_UPB|random|COMMON_FULL|WkNN": 9.16,
+   "bucharest_iAG_UPB|spatial|RSSI_ONLY|WkNN": 7.96,
+   "bucharest_iAG_UPB|spatial|COMMON_FULL|WkNN": 9.68,
+   "bucharest_iAG_UPB|random|RSSI_ONLY|RF": 5.32,
+   "bucharest_iAG_UPB|random|COMMON_FULL|RF": 5.58,
+   "bucharest_iAG_UPB|spatial|RSSI_ONLY|RF": 6.43,
+   "bucharest_iAG_UPB|spatial|COMMON_FULL|RF": 6.81,
+   "bucharest_iAG_UPB|random|RSSI_ONLY|XGBoost": 5.37,
+   "bucharest_iAG_UPB|random|COMMON_FULL|XGBoost": 5.44,
+   "bucharest_iAG_UPB|spatial|RSSI_ONLY|XGBoost": 6.58,
+   "bucharest_iAG_UPB|spatial|COMMON_FULL|XGBoost": 6.67,
+   "bucharest_iAG_UPB|random|RSSI_ONLY|MLP": 6.1,
+   "bucharest_iAG_UPB|random|COMMON_FULL|MLP": 6.65,
+   "bucharest_iAG_UPB|spatial|RSSI_ONLY|MLP": 6.97,
+   "bucharest_iAG_UPB|spatial|COMMON_FULL|MLP": 7.34,
+   "bucharest_iAG_UPB|random|RSSI_ONLY|ELM": 7.62,
+   "bucharest_iAG_UPB|random|COMMON_FULL|ELM": 7.39,
+   "bucharest_iAG_UPB|spatial|RSSI_ONLY|ELM": 8.65,
+   "bucharest_iAG_UPB|spatial|COMMON_FULL|ELM": 8.24
+  }
+ },
+ "table_sample_size": {
+  "antwerp2019|full|random|kNN": [
+   6.1,
+   true
+  ],
+  "bonn|full|random|kNN": [
+   8.4,
+   true
+  ],
+  "antwerp2019|2436|random|kNN": [
+   3.1,
+   true
+  ],
+  "bonn|2436|random|kNN": [
+   5.7,
+   true
+  ],
+  "brno_iAG_BUT|full|random|kNN": [
+   -25.4,
+   true
+  ],
+  "antwerp2019|930|random|kNN": [
+   1.9,
+   false
+  ],
+  "bonn|930|random|kNN": [
+   4.4,
+   true
+  ],
+  "bucharest_iAG_UPB|full|random|kNN": [
+   -20.9,
+   true
+  ],
+  "antwerp2019|572|random|kNN": [
+   0.0,
+   false
+  ],
+  "bonn|572|random|kNN": [
+   3.6,
+   false
+  ],
+  "brno_iUG_BUT|full|random|kNN": [
+   -35.2,
+   true
+  ],
+  "antwerp2019|full|random|WkNN": [
+   4.2,
+   true
+  ],
+  "bonn|full|random|WkNN": [
+   7.6,
+   true
+  ],
+  "antwerp2019|2436|random|WkNN": [
+   4.7,
+   true
+  ],
+  "bonn|2436|random|WkNN": [
+   8.0,
+   true
+  ],
+  "brno_iAG_BUT|full|random|WkNN": [
+   -24.0,
+   true
+  ],
+  "antwerp2019|930|random|WkNN": [
+   -0.5,
+   false
+  ],
+  "bonn|930|random|WkNN": [
+   7.1,
+   true
+  ],
+  "bucharest_iAG_UPB|full|random|WkNN": [
+   -23.2,
+   true
+  ],
+  "antwerp2019|572|random|WkNN": [
+   1.3,
+   false
+  ],
+  "bonn|572|random|WkNN": [
+   8.1,
+   true
+  ],
+  "brno_iUG_BUT|full|random|WkNN": [
+   -39.6,
+   true
+  ],
+  "antwerp2019|full|random|RF": [
+   6.9,
+   true
+  ],
+  "bonn|full|random|RF": [
+   7.8,
+   true
+  ],
+  "antwerp2019|2436|random|RF": [
+   -1.2,
+   false
+  ],
+  "bonn|2436|random|RF": [
+   5.0,
+   true
+  ],
+  "brno_iAG_BUT|full|random|RF": [
+   -5.6,
+   true
+  ],
+  "antwerp2019|930|random|RF": [
+   -8.0,
+   true
+  ],
+  "bonn|930|random|RF": [
+   4.3,
+   true
+  ],
+  "bucharest_iAG_UPB|full|random|RF": [
+   -5.8,
+   true
+  ],
+  "antwerp2019|572|random|RF": [
+   -12.1,
+   true
+  ],
+  "bonn|572|random|RF": [
+   3.9,
+   true
+  ],
+  "brno_iUG_BUT|full|random|RF": [
+   -5.1,
+   true
+  ],
+  "antwerp2019|full|random|XGBoost": [
+   4.5,
+   true
+  ],
+  "bonn|full|random|XGBoost": [
+   7.3,
+   true
+  ],
+  "antwerp2019|2436|random|XGBoost": [
+   2.1,
+   false
+  ],
+  "bonn|2436|random|XGBoost": [
+   4.0,
+   true
+  ],
+  "brno_iAG_BUT|full|random|XGBoost": [
+   -6.5,
+   true
+  ],
+  "antwerp2019|930|random|XGBoost": [
+   0.2,
+   false
+  ],
+  "bonn|930|random|XGBoost": [
+   5.0,
+   true
+  ],
+  "bucharest_iAG_UPB|full|random|XGBoost": [
+   -4.1,
+   true
+  ],
+  "antwerp2019|572|random|XGBoost": [
+   0.9,
+   false
+  ],
+  "bonn|572|random|XGBoost": [
+   5.0,
+   true
+  ],
+  "brno_iUG_BUT|full|random|XGBoost": [
+   1.4,
+   false
+  ],
+  "antwerp2019|full|random|MLP": [
+   9.0,
+   true
+  ],
+  "bonn|full|random|MLP": [
+   8.7,
+   true
+  ],
+  "antwerp2019|2436|random|MLP": [
+   -3.0,
+   true
+  ],
+  "bonn|2436|random|MLP": [
+   5.2,
+   true
+  ],
+  "brno_iAG_BUT|full|random|MLP": [
+   -12.2,
+   true
+  ],
+  "antwerp2019|930|random|MLP": [
+   -1.5,
+   false
+  ],
+  "bonn|930|random|MLP": [
+   3.3,
+   true
+  ],
+  "bucharest_iAG_UPB|full|random|MLP": [
+   -10.7,
+   true
+  ],
+  "antwerp2019|572|random|MLP": [
+   -10.9,
+   true
+  ],
+  "bonn|572|random|MLP": [
+   0.1,
+   false
+  ],
+  "brno_iUG_BUT|full|random|MLP": [
+   -25.1,
+   true
+  ],
+  "antwerp2019|full|random|ELM": [
+   5.6,
+   true
+  ],
+  "bonn|full|random|ELM": [
+   8.0,
+   true
+  ],
+  "antwerp2019|2436|random|ELM": [
+   -0.5,
+   false
+  ],
+  "bonn|2436|random|ELM": [
+   0.2,
+   false
+  ],
+  "brno_iAG_BUT|full|random|ELM": [
+   -18.9,
+   true
+  ],
+  "antwerp2019|930|random|ELM": [
+   14.0,
+   true
+  ],
+  "bonn|930|random|ELM": [
+   -3.7,
+   true
+  ],
+  "bucharest_iAG_UPB|full|random|ELM": [
+   2.0,
+   false
+  ],
+  "antwerp2019|572|random|ELM": [
+   -14.0,
+   false
+  ],
+  "bonn|572|random|ELM": [
+   -16.5,
+   true
+  ],
+  "brno_iUG_BUT|full|random|ELM": [
+   -15.5,
+   false
+  ],
+  "antwerp2019|full|spatial|kNN": [
+   5.5,
+   true
+  ],
+  "bonn|full|spatial|kNN": [
+   6.3,
+   true
+  ],
+  "antwerp2019|2436|spatial|kNN": [
+   2.5,
+   false
+  ],
+  "bonn|2436|spatial|kNN": [
+   2.4,
+   true
+  ],
+  "brno_iAG_BUT|full|spatial|kNN": [
+   -14.1,
+   true
+  ],
+  "antwerp2019|930|spatial|kNN": [
+   -0.6,
+   false
+  ],
+  "bonn|930|spatial|kNN": [
+   2.5,
+   true
+  ],
+  "bucharest_iAG_UPB|full|spatial|kNN": [
+   -8.9,
+   true
+  ],
+  "antwerp2019|572|spatial|kNN": [
+   6.1,
+   false
+  ],
+  "bonn|572|spatial|kNN": [
+   -3.6,
+   false
+  ],
+  "brno_iUG_BUT|full|spatial|kNN": [
+   -52.5,
+   true
+  ],
+  "antwerp2019|full|spatial|WkNN": [
+   3.8,
+   true
+  ],
+  "bonn|full|spatial|WkNN": [
+   5.9,
+   true
+  ],
+  "antwerp2019|2436|spatial|WkNN": [
+   1.5,
+   false
+  ],
+  "bonn|2436|spatial|WkNN": [
+   5.0,
+   true
+  ],
+  "brno_iAG_BUT|full|spatial|WkNN": [
+   -15.3,
+   true
+  ],
+  "antwerp2019|930|spatial|WkNN": [
+   -6.6,
+   false
+  ],
+  "bonn|930|spatial|WkNN": [
+   5.8,
+   true
+  ],
+  "bucharest_iAG_UPB|full|spatial|WkNN": [
+   -11.0,
+   true
+  ],
+  "antwerp2019|572|spatial|WkNN": [
+   3.1,
+   false
+  ],
+  "bonn|572|spatial|WkNN": [
+   1.4,
+   false
+  ],
+  "brno_iUG_BUT|full|spatial|WkNN": [
+   -61.2,
+   true
+  ],
+  "antwerp2019|full|spatial|RF": [
+   3.6,
+   true
+  ],
+  "bonn|full|spatial|RF": [
+   4.9,
+   true
+  ],
+  "antwerp2019|2436|spatial|RF": [
+   -2.3,
+   false
+  ],
+  "bonn|2436|spatial|RF": [
+   3.2,
+   true
+  ],
+  "brno_iAG_BUT|full|spatial|RF": [
+   -4.5,
+   true
+  ],
+  "antwerp2019|930|spatial|RF": [
+   -6.5,
+   false
+  ],
+  "bonn|930|spatial|RF": [
+   4.2,
+   true
+  ],
+  "bucharest_iAG_UPB|full|spatial|RF": [
+   -3.9,
+   true
+  ],
+  "antwerp2019|572|spatial|RF": [
+   -9.6,
+   true
+  ],
+  "bonn|572|spatial|RF": [
+   0.5,
+   false
+  ],
+  "brno_iUG_BUT|full|spatial|RF": [
+   -4.1,
+   false
+  ],
+  "antwerp2019|full|spatial|XGBoost": [
+   0.8,
+   false
+  ],
+  "bonn|full|spatial|XGBoost": [
+   4.7,
+   true
+  ],
+  "antwerp2019|2436|spatial|XGBoost": [
+   -0.7,
+   false
+  ],
+  "bonn|2436|spatial|XGBoost": [
+   3.2,
+   true
+  ],
+  "brno_iAG_BUT|full|spatial|XGBoost": [
+   -5.6,
+   true
+  ],
+  "antwerp2019|930|spatial|XGBoost": [
+   1.6,
+   false
+  ],
+  "bonn|930|spatial|XGBoost": [
+   5.3,
+   true
+  ],
+  "bucharest_iAG_UPB|full|spatial|XGBoost": [
+   -2.3,
+   false
+  ],
+  "antwerp2019|572|spatial|XGBoost": [
+   -3.2,
+   false
+  ],
+  "bonn|572|spatial|XGBoost": [
+   1.5,
+   false
+  ],
+  "brno_iUG_BUT|full|spatial|XGBoost": [
+   1.9,
+   false
+  ],
+  "antwerp2019|full|spatial|MLP": [
+   5.5,
+   true
+  ],
+  "bonn|full|spatial|MLP": [
+   4.9,
+   true
+  ],
+  "antwerp2019|2436|spatial|MLP": [
+   1.2,
+   false
+  ],
+  "bonn|2436|spatial|MLP": [
+   4.2,
+   true
+  ],
+  "brno_iAG_BUT|full|spatial|MLP": [
+   -12.3,
+   true
+  ],
+  "antwerp2019|930|spatial|MLP": [
+   -3.4,
+   false
+  ],
+  "bonn|930|spatial|MLP": [
+   4.0,
+   true
+  ],
+  "bucharest_iAG_UPB|full|spatial|MLP": [
+   -8.3,
+   true
+  ],
+  "antwerp2019|572|spatial|MLP": [
+   -4.7,
+   false
+  ],
+  "bonn|572|spatial|MLP": [
+   -0.8,
+   false
+  ],
+  "brno_iUG_BUT|full|spatial|MLP": [
+   -11.2,
+   false
+  ],
+  "antwerp2019|full|spatial|ELM": [
+   3.6,
+   true
+  ],
+  "bonn|full|spatial|ELM": [
+   4.3,
+   true
+  ],
+  "antwerp2019|2436|spatial|ELM": [
+   4.2,
+   false
+  ],
+  "bonn|2436|spatial|ELM": [
+   0.4,
+   false
+  ],
+  "brno_iAG_BUT|full|spatial|ELM": [
+   -23.3,
+   true
+  ],
+  "antwerp2019|930|spatial|ELM": [
+   -16.2,
+   false
+  ],
+  "bonn|930|spatial|ELM": [
+   -1.5,
+   false
+  ],
+  "bucharest_iAG_UPB|full|spatial|ELM": [
+   6.4,
+   false
+  ],
+  "antwerp2019|572|spatial|ELM": [
+   -5.0,
+   false
+  ],
+  "bonn|572|spatial|ELM": [
+   -12.5,
+   true
+  ],
+  "brno_iUG_BUT|full|spatial|ELM": [
+   -23.8,
+   false
+  ]
+ },
+ "table_costs": {
+  "Outdoor|RSSI_ONLY|kNN|final_fit_time_s": "0.0342",
+  "Outdoor|RSSI_ONLY|kNN|search_time_s": "14.6",
+  "Indoor|RSSI_ONLY|kNN|final_fit_time_s": "0.00138",
+  "Indoor|RSSI_ONLY|kNN|search_time_s": "0.178",
+  "Outdoor|RSSI_ONLY|kNN|inference_ms_per_sample": "0.603",
+  "Outdoor|RSSI_ONLY|kNN|model_size_mb": "10.7",
+  "Indoor|RSSI_ONLY|kNN|inference_ms_per_sample": "0.0381",
+  "Indoor|RSSI_ONLY|kNN|model_size_mb": "0.0474",
+  "Outdoor|COMMON_FULL|kNN|final_fit_time_s": "0.138",
+  "Outdoor|COMMON_FULL|kNN|search_time_s": "29.8",
+  "Indoor|COMMON_FULL|kNN|final_fit_time_s": "0.00167",
+  "Indoor|COMMON_FULL|kNN|search_time_s": "0.178",
+  "Outdoor|COMMON_FULL|kNN|inference_ms_per_sample": "1.59",
+  "Outdoor|COMMON_FULL|kNN|model_size_mb": "43.6",
+  "Indoor|COMMON_FULL|kNN|inference_ms_per_sample": "0.0454",
+  "Indoor|COMMON_FULL|kNN|model_size_mb": "0.202",
+  "Outdoor|RSSI_ONLY|WkNN|final_fit_time_s": "0.0346",
+  "Outdoor|RSSI_ONLY|WkNN|search_time_s": "14.7",
+  "Indoor|RSSI_ONLY|WkNN|final_fit_time_s": "0.00153",
+  "Indoor|RSSI_ONLY|WkNN|search_time_s": "0.182",
+  "Outdoor|RSSI_ONLY|WkNN|inference_ms_per_sample": "0.604",
+  "Outdoor|RSSI_ONLY|WkNN|model_size_mb": "10.7",
+  "Indoor|RSSI_ONLY|WkNN|inference_ms_per_sample": "0.0407",
+  "Indoor|RSSI_ONLY|WkNN|model_size_mb": "0.0474",
+  "Outdoor|COMMON_FULL|WkNN|final_fit_time_s": "0.138",
+  "Outdoor|COMMON_FULL|WkNN|search_time_s": "30.0",
+  "Indoor|COMMON_FULL|WkNN|final_fit_time_s": "0.00182",
+  "Indoor|COMMON_FULL|WkNN|search_time_s": "0.184",
+  "Outdoor|COMMON_FULL|WkNN|inference_ms_per_sample": "1.38",
+  "Outdoor|COMMON_FULL|WkNN|model_size_mb": "43.6",
+  "Indoor|COMMON_FULL|WkNN|inference_ms_per_sample": "0.0475",
+  "Indoor|COMMON_FULL|WkNN|model_size_mb": "0.202",
+  "Outdoor|RSSI_ONLY|RF|final_fit_time_s": "4.79",
+  "Outdoor|RSSI_ONLY|RF|search_time_s": "21.8",
+  "Indoor|RSSI_ONLY|RF|final_fit_time_s": "0.414",
+  "Indoor|RSSI_ONLY|RF|search_time_s": "2.83",
+  "Outdoor|RSSI_ONLY|RF|inference_ms_per_sample": "0.0158",
+  "Outdoor|RSSI_ONLY|RF|model_size_mb": "393",
+  "Indoor|RSSI_ONLY|RF|inference_ms_per_sample": "0.541",
+  "Indoor|RSSI_ONLY|RF|model_size_mb": "27.5",
+  "Outdoor|COMMON_FULL|RF|final_fit_time_s": "13.3",
+  "Outdoor|COMMON_FULL|RF|search_time_s": "65.6",
+  "Indoor|COMMON_FULL|RF|final_fit_time_s": "0.420",
+  "Indoor|COMMON_FULL|RF|search_time_s": "2.92",
+  "Outdoor|COMMON_FULL|RF|inference_ms_per_sample": "0.0146",
+  "Outdoor|COMMON_FULL|RF|model_size_mb": "643",
+  "Indoor|COMMON_FULL|RF|inference_ms_per_sample": "0.529",
+  "Indoor|COMMON_FULL|RF|model_size_mb": "24.5",
+  "Outdoor|RSSI_ONLY|XGBoost|final_fit_time_s": "5.66",
+  "Outdoor|RSSI_ONLY|XGBoost|search_time_s": "45.5",
+  "Indoor|RSSI_ONLY|XGBoost|final_fit_time_s": "0.552",
+  "Indoor|RSSI_ONLY|XGBoost|search_time_s": "9.24",
+  "Outdoor|RSSI_ONLY|XGBoost|inference_ms_per_sample": "0.00845",
+  "Outdoor|RSSI_ONLY|XGBoost|model_size_mb": "16.7",
+  "Indoor|RSSI_ONLY|XGBoost|inference_ms_per_sample": "0.0238",
+  "Indoor|RSSI_ONLY|XGBoost|model_size_mb": "3.72",
+  "Outdoor|COMMON_FULL|XGBoost|final_fit_time_s": "23.2",
+  "Outdoor|COMMON_FULL|XGBoost|search_time_s": "173",
+  "Indoor|COMMON_FULL|XGBoost|final_fit_time_s": "1.63",
+  "Indoor|COMMON_FULL|XGBoost|search_time_s": "31.8",
+  "Outdoor|COMMON_FULL|XGBoost|inference_ms_per_sample": "0.00887",
+  "Outdoor|COMMON_FULL|XGBoost|model_size_mb": "15.5",
+  "Indoor|COMMON_FULL|XGBoost|inference_ms_per_sample": "0.0229",
+  "Indoor|COMMON_FULL|XGBoost|model_size_mb": "3.05",
+  "Outdoor|RSSI_ONLY|MLP|final_fit_time_s": "91.4",
+  "Outdoor|RSSI_ONLY|MLP|search_time_s": "320",
+  "Indoor|RSSI_ONLY|MLP|final_fit_time_s": "2.13",
+  "Indoor|RSSI_ONLY|MLP|search_time_s": "9.85",
+  "Outdoor|RSSI_ONLY|MLP|inference_ms_per_sample": "0.00122",
+  "Outdoor|RSSI_ONLY|MLP|model_size_mb": "0.854",
+  "Indoor|RSSI_ONLY|MLP|inference_ms_per_sample": "0.00481",
+  "Indoor|RSSI_ONLY|MLP|model_size_mb": "0.659",
+  "Outdoor|COMMON_FULL|MLP|final_fit_time_s": "66.4",
+  "Outdoor|COMMON_FULL|MLP|search_time_s": "257",
+  "Indoor|COMMON_FULL|MLP|final_fit_time_s": "1.99",
+  "Indoor|COMMON_FULL|MLP|search_time_s": "6.92",
+  "Outdoor|COMMON_FULL|MLP|inference_ms_per_sample": "0.00154",
+  "Outdoor|COMMON_FULL|MLP|model_size_mb": "1.33",
+  "Indoor|COMMON_FULL|MLP|inference_ms_per_sample": "0.00630",
+  "Indoor|COMMON_FULL|MLP|model_size_mb": "0.965",
+  "Outdoor|RSSI_ONLY|ELM|final_fit_time_s": "33.5",
+  "Outdoor|RSSI_ONLY|ELM|search_time_s": "278",
+  "Indoor|RSSI_ONLY|ELM|final_fit_time_s": "0.316",
+  "Indoor|RSSI_ONLY|ELM|search_time_s": "8.12",
+  "Outdoor|RSSI_ONLY|ELM|inference_ms_per_sample": "0.0344",
+  "Outdoor|RSSI_ONLY|ELM|model_size_mb": "0.516",
+  "Indoor|RSSI_ONLY|ELM|inference_ms_per_sample": "0.0146",
+  "Indoor|RSSI_ONLY|ELM|model_size_mb": "0.0693",
+  "Outdoor|COMMON_FULL|ELM|final_fit_time_s": "36.3",
+  "Outdoor|COMMON_FULL|ELM|search_time_s": "289",
+  "Indoor|COMMON_FULL|ELM|final_fit_time_s": "0.331",
+  "Indoor|COMMON_FULL|ELM|search_time_s": "8.14",
+  "Outdoor|COMMON_FULL|ELM|inference_ms_per_sample": "0.0518",
+  "Outdoor|COMMON_FULL|ELM|model_size_mb": "2.42",
+  "Indoor|COMMON_FULL|ELM|inference_ms_per_sample": "0.0182",
+  "Indoor|COMMON_FULL|ELM|model_size_mb": "0.395"
+ },
+ "table_overhead": {
+  "Outdoor|kNN|final_fit_time_s": [
+   283.4,
+   "*"
+  ],
+  "Outdoor|kNN|search_time_s": [
+   75.3,
+   "*"
+  ],
+  "Indoor|kNN|final_fit_time_s": [
+   28.3,
+   "*"
+  ],
+  "Indoor|kNN|search_time_s": [
+   0.0,
+   ""
+  ],
+  "Outdoor|kNN|inference_ms_per_sample": [
+   140.0,
+   "*"
+  ],
+  "Outdoor|kNN|model_size_mb": [
+   314.7,
+   "*"
+  ],
+  "Indoor|kNN|inference_ms_per_sample": [
+   41.9,
+   "*"
+  ],
+  "Indoor|kNN|model_size_mb": [
+   326.7,
+   "*"
+  ],
+  "Outdoor|WkNN|final_fit_time_s": [
+   279.8,
+   "*"
+  ],
+  "Outdoor|WkNN|search_time_s": [
+   74.8,
+   "*"
+  ],
+  "Indoor|WkNN|final_fit_time_s": [
+   20.7,
+   "*"
+  ],
+  "Indoor|WkNN|search_time_s": [
+   0.5,
+   ""
+  ],
+  "Outdoor|WkNN|inference_ms_per_sample": [
+   108.5,
+   "*"
+  ],
+  "Outdoor|WkNN|model_size_mb": [
+   314.7,
+   "*"
+  ],
+  "Indoor|WkNN|inference_ms_per_sample": [
+   53.2,
+   "*"
+  ],
+  "Indoor|WkNN|model_size_mb": [
+   326.7,
+   "*"
+  ],
+  "Outdoor|RF|final_fit_time_s": [
+   172.3,
+   "*"
+  ],
+  "Outdoor|RF|search_time_s": [
+   208.4,
+   "*"
+  ],
+  "Indoor|RF|final_fit_time_s": [
+   8.0,
+   ""
+  ],
+  "Indoor|RF|search_time_s": [
+   3.0,
+   "*"
+  ],
+  "Outdoor|RF|inference_ms_per_sample": [
+   15.3,
+   "r"
+  ],
+  "Outdoor|RF|model_size_mb": [
+   55.6,
+   "*"
+  ],
+  "Indoor|RF|inference_ms_per_sample": [
+   -0.4,
+   ""
+  ],
+  "Indoor|RF|model_size_mb": [
+   -3.5,
+   ""
+  ],
+  "Outdoor|XGBoost|final_fit_time_s": [
+   284.4,
+   "*"
+  ],
+  "Outdoor|XGBoost|search_time_s": [
+   262.6,
+   "*"
+  ],
+  "Indoor|XGBoost|final_fit_time_s": [
+   255.2,
+   "*"
+  ],
+  "Indoor|XGBoost|search_time_s": [
+   231.3,
+   "*"
+  ],
+  "Outdoor|XGBoost|inference_ms_per_sample": [
+   5.4,
+   "r"
+  ],
+  "Outdoor|XGBoost|model_size_mb": [
+   -12.1,
+   "r"
+  ],
+  "Indoor|XGBoost|inference_ms_per_sample": [
+   7.3,
+   ""
+  ],
+  "Indoor|XGBoost|model_size_mb": [
+   -5.7,
+   ""
+  ],
+  "Outdoor|MLP|final_fit_time_s": [
+   1.4,
+   ""
+  ],
+  "Outdoor|MLP|search_time_s": [
+   -22.9,
+   "*"
+  ],
+  "Indoor|MLP|final_fit_time_s": [
+   12.3,
+   ""
+  ],
+  "Indoor|MLP|search_time_s": [
+   -21.6,
+   "*"
+  ],
+  "Outdoor|MLP|inference_ms_per_sample": [
+   45.4,
+   "*"
+  ],
+  "Outdoor|MLP|model_size_mb": [
+   123.2,
+   "*"
+  ],
+  "Indoor|MLP|inference_ms_per_sample": [
+   27.7,
+   "*"
+  ],
+  "Indoor|MLP|model_size_mb": [
+   84.5,
+   "*"
+  ],
+  "Outdoor|ELM|final_fit_time_s": [
+   24.6,
+   "*"
+  ],
+  "Outdoor|ELM|search_time_s": [
+   17.7,
+   "*"
+  ],
+  "Indoor|ELM|final_fit_time_s": [
+   2.5,
+   ""
+  ],
+  "Indoor|ELM|search_time_s": [
+   -2.4,
+   "*"
+  ],
+  "Outdoor|ELM|inference_ms_per_sample": [
+   71.7,
+   "*"
+  ],
+  "Outdoor|ELM|model_size_mb": [
+   352.7,
+   "*"
+  ],
+  "Indoor|ELM|inference_ms_per_sample": [
+   44.2,
+   "*"
+  ],
+  "Indoor|ELM|model_size_mb": [
+   479.4,
+   "*"
+  ]
+ },
+ "fig_environment_effects": {
+  "Indoor|random|kNN": [
+   -27.2,
+   true
+  ],
+  "Indoor|random|WkNN": [
+   -28.9,
+   true
+  ],
+  "Indoor|random|RF": [
+   -5.5,
+   true
+  ],
+  "Indoor|random|XGBoost": [
+   -3.1,
+   true
+  ],
+  "Indoor|random|MLP": [
+   -16.0,
+   true
+  ],
+  "Indoor|random|ELM": [
+   -10.8,
+   true
+  ],
+  "Indoor|spatial|kNN": [
+   -25.2,
+   true
+  ],
+  "Indoor|spatial|WkNN": [
+   -29.2,
+   true
+  ],
+  "Indoor|spatial|RF": [
+   -4.2,
+   true
+  ],
+  "Indoor|spatial|XGBoost": [
+   -2.0,
+   true
+  ],
+  "Indoor|spatial|MLP": [
+   -10.6,
+   true
+  ],
+  "Indoor|spatial|ELM": [
+   -13.6,
+   true
+  ],
+  "Outdoor|random|kNN": [
+   7.3,
+   true
+  ],
+  "Outdoor|random|WkNN": [
+   5.9,
+   true
+  ],
+  "Outdoor|random|RF": [
+   7.4,
+   true
+  ],
+  "Outdoor|random|XGBoost": [
+   5.9,
+   true
+  ],
+  "Outdoor|random|MLP": [
+   8.9,
+   true
+  ],
+  "Outdoor|random|ELM": [
+   6.8,
+   true
+  ],
+  "Outdoor|spatial|kNN": [
+   5.9,
+   true
+  ],
+  "Outdoor|spatial|WkNN": [
+   4.8,
+   true
+  ],
+  "Outdoor|spatial|RF": [
+   4.3,
+   true
+  ],
+  "Outdoor|spatial|XGBoost": [
+   2.8,
+   true
+  ],
+  "Outdoor|spatial|MLP": [
+   5.2,
+   true
+  ],
+  "Outdoor|spatial|ELM": [
+   3.9,
+   true
+  ]
+ },
+ "fig_spatial_gap": {
+  "Outdoor|RSSI_ONLY|kNN": 42,
+  "Outdoor|RSSI_ONLY|WkNN": 42,
+  "Outdoor|RSSI_ONLY|RF": 44,
+  "Outdoor|RSSI_ONLY|XGBoost": 40,
+  "Outdoor|RSSI_ONLY|MLP": 38,
+  "Outdoor|RSSI_ONLY|ELM": 37,
+  "Outdoor|COMMON_FULL|kNN": 46,
+  "Outdoor|COMMON_FULL|WkNN": 45,
+  "Outdoor|COMMON_FULL|RF": 49,
+  "Outdoor|COMMON_FULL|XGBoost": 45,
+  "Outdoor|COMMON_FULL|MLP": 45,
+  "Outdoor|COMMON_FULL|ELM": 41,
+  "Indoor|RSSI_ONLY|kNN": 76,
+  "Indoor|RSSI_ONLY|WkNN": 74,
+  "Indoor|RSSI_ONLY|RF": 65,
+  "Indoor|RSSI_ONLY|XGBoost": 67,
+  "Indoor|RSSI_ONLY|MLP": 43,
+  "Indoor|RSSI_ONLY|ELM": 34,
+  "Indoor|COMMON_FULL|kNN": 63,
+  "Indoor|COMMON_FULL|WkNN": 66,
+  "Indoor|COMMON_FULL|RF": 65,
+  "Indoor|COMMON_FULL|XGBoost": 66,
+  "Indoor|COMMON_FULL|MLP": 35,
+  "Indoor|COMMON_FULL|ELM": 36
+ },
+ "fig_rssi_snr": {
+  "Outdoor|ADD_RSSI_TO_SNR|random|kNN": [
+   15.1,
+   true
+  ],
+  "Indoor|ADD_RSSI_TO_SNR|random|kNN": [
+   51.4,
+   true
+  ],
+  "Outdoor|ADD_RSSI_TO_SNR|spatial|kNN": [
+   11.4,
+   true
+  ],
+  "Indoor|ADD_RSSI_TO_SNR|spatial|kNN": [
+   40.0,
+   true
+  ],
+  "Outdoor|ADD_RSSI_TO_SNR|random|WkNN": [
+   13.2,
+   true
+  ],
+  "Indoor|ADD_RSSI_TO_SNR|random|WkNN": [
+   52.0,
+   true
+  ],
+  "Outdoor|ADD_RSSI_TO_SNR|spatial|WkNN": [
+   9.5,
+   true
+  ],
+  "Indoor|ADD_RSSI_TO_SNR|spatial|WkNN": [
+   40.2,
+   true
+  ],
+  "Outdoor|ADD_RSSI_TO_SNR|random|RF": [
+   8.5,
+   true
+  ],
+  "Indoor|ADD_RSSI_TO_SNR|random|RF": [
+   60.1,
+   true
+  ],
+  "Outdoor|ADD_RSSI_TO_SNR|spatial|RF": [
+   7.7,
+   true
+  ],
+  "Indoor|ADD_RSSI_TO_SNR|spatial|RF": [
+   49.6,
+   true
+  ],
+  "Outdoor|ADD_RSSI_TO_SNR|random|XGBoost": [
+   9.8,
+   true
+  ],
+  "Indoor|ADD_RSSI_TO_SNR|random|XGBoost": [
+   62.9,
+   true
+  ],
+  "Outdoor|ADD_RSSI_TO_SNR|spatial|XGBoost": [
+   8.0,
+   true
+  ],
+  "Indoor|ADD_RSSI_TO_SNR|spatial|XGBoost": [
+   51.3,
+   true
+  ],
+  "Outdoor|ADD_RSSI_TO_SNR|random|MLP": [
+   13.3,
+   true
+  ],
+  "Indoor|ADD_RSSI_TO_SNR|random|MLP": [
+   54.3,
+   true
+  ],
+  "Outdoor|ADD_RSSI_TO_SNR|spatial|MLP": [
+   9.6,
+   true
+  ],
+  "Indoor|ADD_RSSI_TO_SNR|spatial|MLP": [
+   47.3,
+   true
+  ],
+  "Outdoor|ADD_RSSI_TO_SNR|random|ELM": [
+   26.8,
+   true
+  ],
+  "Indoor|ADD_RSSI_TO_SNR|random|ELM": [
+   51.4,
+   true
+  ],
+  "Outdoor|ADD_RSSI_TO_SNR|spatial|ELM": [
+   22.3,
+   true
+  ],
+  "Indoor|ADD_RSSI_TO_SNR|spatial|ELM": [
+   45.7,
+   true
+  ],
+  "Outdoor|ADD_SNR_TO_RSSI|random|kNN": [
+   5.0,
+   true
+  ],
+  "Indoor|ADD_SNR_TO_RSSI|random|kNN": [
+   -21.2,
+   true
+  ],
+  "Outdoor|ADD_SNR_TO_RSSI|spatial|kNN": [
+   4.0,
+   true
+  ],
+  "Indoor|ADD_SNR_TO_RSSI|spatial|kNN": [
+   -12.6,
+   true
+  ],
+  "Outdoor|ADD_SNR_TO_RSSI|random|WkNN": [
+   3.6,
+   true
+  ],
+  "Indoor|ADD_SNR_TO_RSSI|random|WkNN": [
+   -22.6,
+   true
+  ],
+  "Outdoor|ADD_SNR_TO_RSSI|spatial|WkNN": [
+   3.0,
+   true
+  ],
+  "Indoor|ADD_SNR_TO_RSSI|spatial|WkNN": [
+   -15.8,
+   true
+  ],
+  "Outdoor|ADD_SNR_TO_RSSI|random|RF": [
+   5.7,
+   true
+  ],
+  "Indoor|ADD_SNR_TO_RSSI|random|RF": [
+   -10.1,
+   true
+  ],
+  "Outdoor|ADD_SNR_TO_RSSI|spatial|RF": [
+   4.0,
+   true
+  ],
+  "Indoor|ADD_SNR_TO_RSSI|spatial|RF": [
+   -5.5,
+   true
+  ],
+  "Outdoor|ADD_SNR_TO_RSSI|random|XGBoost": [
+   5.1,
+   true
+  ],
+  "Indoor|ADD_SNR_TO_RSSI|random|XGBoost": [
+   -3.1,
+   true
+  ],
+  "Outdoor|ADD_SNR_TO_RSSI|spatial|XGBoost": [
+   3.2,
+   true
+  ],
+  "Indoor|ADD_SNR_TO_RSSI|spatial|XGBoost": [
+   0.0,
+   false
+  ],
+  "Outdoor|ADD_SNR_TO_RSSI|random|MLP": [
+   8.4,
+   true
+  ],
+  "Indoor|ADD_SNR_TO_RSSI|random|MLP": [
+   -16.6,
+   true
+  ],
+  "Outdoor|ADD_SNR_TO_RSSI|spatial|MLP": [
+   5.2,
+   true
+  ],
+  "Indoor|ADD_SNR_TO_RSSI|spatial|MLP": [
+   -10.5,
+   true
+  ],
+  "Outdoor|ADD_SNR_TO_RSSI|random|ELM": [
+   3.6,
+   true
+  ],
+  "Indoor|ADD_SNR_TO_RSSI|random|ELM": [
+   -16.1,
+   true
+  ],
+  "Outdoor|ADD_SNR_TO_RSSI|spatial|ELM": [
+   -0.6,
+   false
+  ],
+  "Indoor|ADD_SNR_TO_RSSI|spatial|ELM": [
+   -14.1,
+   true
+  ]
+ },
+ "fig_ablation": {
+  "Outdoor|random|kNN|DROP_SNR": [
+   3.6,
+   true
+  ],
+  "Outdoor|random|kNN|DROP_ESP": [
+   0.3,
+   true
+  ],
+  "Outdoor|random|kNN|DROP_SNR_ESP": [
+   4.9,
+   true
+  ],
+  "Outdoor|random|kNN|DROP_RX_MASK": [
+   -0.1,
+   true
+  ],
+  "Outdoor|random|kNN|DROP_AGGREGATES": [
+   1.0,
+   true
+  ],
+  "Outdoor|random|WkNN|DROP_SNR": [
+   3.5,
+   true
+  ],
+  "Outdoor|random|WkNN|DROP_ESP": [
+   0.3,
+   true
+  ],
+  "Outdoor|random|WkNN|DROP_SNR_ESP": [
+   4.9,
+   true
+  ],
+  "Outdoor|random|WkNN|DROP_RX_MASK": [
+   0.0,
+   false
+  ],
+  "Outdoor|random|WkNN|DROP_AGGREGATES": [
+   0.9,
+   true
+  ],
+  "Outdoor|random|RF|DROP_SNR": [
+   0.7,
+   true
+  ],
+  "Outdoor|random|RF|DROP_ESP": [
+   1.4,
+   true
+  ],
+  "Outdoor|random|RF|DROP_SNR_ESP": [
+   3.8,
+   true
+  ],
+  "Outdoor|random|RF|DROP_RX_MASK": [
+   0.1,
+   true
+  ],
+  "Outdoor|random|RF|DROP_AGGREGATES": [
+   -0.1,
+   true
+  ],
+  "Outdoor|random|XGBoost|DROP_SNR": [
+   0.4,
+   true
+  ],
+  "Outdoor|random|XGBoost|DROP_ESP": [
+   1.0,
+   true
+  ],
+  "Outdoor|random|XGBoost|DROP_SNR_ESP": [
+   3.3,
+   true
+  ],
+  "Outdoor|random|XGBoost|DROP_RX_MASK": [
+   0.0,
+   false
+  ],
+  "Outdoor|random|XGBoost|DROP_AGGREGATES": [
+   -0.2,
+   true
+  ],
+  "Outdoor|random|MLP|DROP_SNR": [
+   2.2,
+   true
+  ],
+  "Outdoor|random|MLP|DROP_ESP": [
+   0.3,
+   true
+  ],
+  "Outdoor|random|MLP|DROP_SNR_ESP": [
+   4.9,
+   true
+  ],
+  "Outdoor|random|MLP|DROP_RX_MASK": [
+   0.2,
+   false
+  ],
+  "Outdoor|random|MLP|DROP_AGGREGATES": [
+   0.8,
+   true
+  ],
+  "Outdoor|random|ELM|DROP_SNR": [
+   0.0,
+   false
+  ],
+  "Outdoor|random|ELM|DROP_ESP": [
+   0.6,
+   true
+  ],
+  "Outdoor|random|ELM|DROP_SNR_ESP": [
+   2.4,
+   true
+  ],
+  "Outdoor|random|ELM|DROP_RX_MASK": [
+   0.4,
+   true
+  ],
+  "Outdoor|random|ELM|DROP_AGGREGATES": [
+   0.7,
+   true
+  ],
+  "Indoor|random|kNN|DROP_SNR": [
+   -3.1,
+   true
+  ],
+  "Indoor|random|kNN|DROP_ESP": [
+   19.9,
+   true
+  ],
+  "Indoor|random|kNN|DROP_SNR_ESP": [
+   18.5,
+   true
+  ],
+  "Indoor|random|kNN|DROP_RX_MASK": [
+   -3.4,
+   true
+  ],
+  "Indoor|random|kNN|DROP_AGGREGATES": [
+   -10.5,
+   true
+  ],
+  "Indoor|random|WkNN|DROP_SNR": [
+   -2.5,
+   true
+  ],
+  "Indoor|random|WkNN|DROP_ESP": [
+   18.9,
+   true
+  ],
+  "Indoor|random|WkNN|DROP_SNR_ESP": [
+   16.7,
+   true
+  ],
+  "Indoor|random|WkNN|DROP_RX_MASK": [
+   -3.0,
+   true
+  ],
+  "Indoor|random|WkNN|DROP_AGGREGATES": [
+   -9.5,
+   true
+  ],
+  "Indoor|random|RF|DROP_SNR": [
+   -0.9,
+   true
+  ],
+  "Indoor|random|RF|DROP_ESP": [
+   13.6,
+   true
+  ],
+  "Indoor|random|RF|DROP_SNR_ESP": [
+   9.1,
+   true
+  ],
+  "Indoor|random|RF|DROP_RX_MASK": [
+   -0.3,
+   false
+  ],
+  "Indoor|random|RF|DROP_AGGREGATES": [
+   -2.1,
+   true
+  ],
+  "Indoor|random|XGBoost|DROP_SNR": [
+   -1.0,
+   false
+  ],
+  "Indoor|random|XGBoost|DROP_ESP": [
+   0.8,
+   false
+  ],
+  "Indoor|random|XGBoost|DROP_SNR_ESP": [
+   0.0,
+   false
+  ],
+  "Indoor|random|XGBoost|DROP_RX_MASK": [
+   -0.1,
+   false
+  ],
+  "Indoor|random|XGBoost|DROP_AGGREGATES": [
+   -1.1,
+   false
+  ],
+  "Indoor|random|MLP|DROP_SNR": [
+   0.7,
+   false
+  ],
+  "Indoor|random|MLP|DROP_ESP": [
+   8.1,
+   true
+  ],
+  "Indoor|random|MLP|DROP_SNR_ESP": [
+   4.6,
+   true
+  ],
+  "Indoor|random|MLP|DROP_RX_MASK": [
+   8.8,
+   true
+  ],
+  "Indoor|random|MLP|DROP_AGGREGATES": [
+   3.8,
+   false
+  ],
+  "Indoor|random|ELM|DROP_SNR": [
+   1.9,
+   false
+  ],
+  "Indoor|random|ELM|DROP_ESP": [
+   6.2,
+   true
+  ],
+  "Indoor|random|ELM|DROP_SNR_ESP": [
+   4.7,
+   true
+  ],
+  "Indoor|random|ELM|DROP_RX_MASK": [
+   2.0,
+   false
+  ],
+  "Indoor|random|ELM|DROP_AGGREGATES": [
+   2.0,
+   false
+  ],
+  "Outdoor|spatial|kNN|DROP_SNR": [
+   3.0,
+   true
+  ],
+  "Outdoor|spatial|kNN|DROP_ESP": [
+   0.3,
+   true
+  ],
+  "Outdoor|spatial|kNN|DROP_SNR_ESP": [
+   3.8,
+   true
+  ],
+  "Outdoor|spatial|kNN|DROP_RX_MASK": [
+   -0.1,
+   false
+  ],
+  "Outdoor|spatial|kNN|DROP_AGGREGATES": [
+   1.1,
+   true
+  ],
+  "Outdoor|spatial|WkNN|DROP_SNR": [
+   2.7,
+   true
+  ],
+  "Outdoor|spatial|WkNN|DROP_ESP": [
+   0.3,
+   true
+  ],
+  "Outdoor|spatial|WkNN|DROP_SNR_ESP": [
+   3.7,
+   true
+  ],
+  "Outdoor|spatial|WkNN|DROP_RX_MASK": [
+   -0.0,
+   false
+  ],
+  "Outdoor|spatial|WkNN|DROP_AGGREGATES": [
+   0.9,
+   true
+  ],
+  "Outdoor|spatial|RF|DROP_SNR": [
+   0.1,
+   false
+  ],
+  "Outdoor|spatial|RF|DROP_ESP": [
+   1.2,
+   true
+  ],
+  "Outdoor|spatial|RF|DROP_SNR_ESP": [
+   2.6,
+   true
+  ],
+  "Outdoor|spatial|RF|DROP_RX_MASK": [
+   0.3,
+   false
+  ],
+  "Outdoor|spatial|RF|DROP_AGGREGATES": [
+   -0.3,
+   false
+  ],
+  "Outdoor|spatial|XGBoost|DROP_SNR": [
+   0.3,
+   true
+  ],
+  "Outdoor|spatial|XGBoost|DROP_ESP": [
+   0.7,
+   true
+  ],
+  "Outdoor|spatial|XGBoost|DROP_SNR_ESP": [
+   2.0,
+   true
+  ],
+  "Outdoor|spatial|XGBoost|DROP_RX_MASK": [
+   0.0,
+   false
+  ],
+  "Outdoor|spatial|XGBoost|DROP_AGGREGATES": [
+   0.2,
+   false
+  ],
+  "Outdoor|spatial|MLP|DROP_SNR": [
+   1.7,
+   true
+  ],
+  "Outdoor|spatial|MLP|DROP_ESP": [
+   0.6,
+   false
+  ],
+  "Outdoor|spatial|MLP|DROP_SNR_ESP": [
+   6.0,
+   true
+  ],
+  "Outdoor|spatial|MLP|DROP_RX_MASK": [
+   0.1,
+   false
+  ],
+  "Outdoor|spatial|MLP|DROP_AGGREGATES": [
+   0.3,
+   false
+  ],
+  "Outdoor|spatial|ELM|DROP_SNR": [
+   1.1,
+   false
+  ],
+  "Outdoor|spatial|ELM|DROP_ESP": [
+   1.0,
+   true
+  ],
+  "Outdoor|spatial|ELM|DROP_SNR_ESP": [
+   2.5,
+   true
+  ],
+  "Outdoor|spatial|ELM|DROP_RX_MASK": [
+   1.1,
+   false
+  ],
+  "Outdoor|spatial|ELM|DROP_AGGREGATES": [
+   0.6,
+   false
+  ],
+  "Indoor|spatial|kNN|DROP_SNR": [
+   -1.6,
+   false
+  ],
+  "Indoor|spatial|kNN|DROP_ESP": [
+   16.1,
+   true
+  ],
+  "Indoor|spatial|kNN|DROP_SNR_ESP": [
+   17.1,
+   true
+  ],
+  "Indoor|spatial|kNN|DROP_RX_MASK": [
+   -3.2,
+   true
+  ],
+  "Indoor|spatial|kNN|DROP_AGGREGATES": [
+   -11.7,
+   true
+  ],
+  "Indoor|spatial|WkNN|DROP_SNR": [
+   -1.4,
+   false
+  ],
+  "Indoor|spatial|WkNN|DROP_ESP": [
+   16.2,
+   true
+  ],
+  "Indoor|spatial|WkNN|DROP_SNR_ESP": [
+   16.7,
+   true
+  ],
+  "Indoor|spatial|WkNN|DROP_RX_MASK": [
+   -2.7,
+   true
+  ],
+  "Indoor|spatial|WkNN|DROP_AGGREGATES": [
+   -12.2,
+   true
+  ],
+  "Indoor|spatial|RF|DROP_SNR": [
+   -0.6,
+   false
+  ],
+  "Indoor|spatial|RF|DROP_ESP": [
+   10.8,
+   true
+  ],
+  "Indoor|spatial|RF|DROP_SNR_ESP": [
+   7.7,
+   true
+  ],
+  "Indoor|spatial|RF|DROP_RX_MASK": [
+   -0.7,
+   false
+  ],
+  "Indoor|spatial|RF|DROP_AGGREGATES": [
+   -1.6,
+   false
+  ],
+  "Indoor|spatial|XGBoost|DROP_SNR": [
+   -0.4,
+   false
+  ],
+  "Indoor|spatial|XGBoost|DROP_ESP": [
+   -0.4,
+   false
+  ],
+  "Indoor|spatial|XGBoost|DROP_SNR_ESP": [
+   -0.5,
+   false
+  ],
+  "Indoor|spatial|XGBoost|DROP_RX_MASK": [
+   -0.2,
+   false
+  ],
+  "Indoor|spatial|XGBoost|DROP_AGGREGATES": [
+   0.1,
+   false
+  ],
+  "Indoor|spatial|MLP|DROP_SNR": [
+   1.0,
+   false
+  ],
+  "Indoor|spatial|MLP|DROP_ESP": [
+   10.2,
+   true
+  ],
+  "Indoor|spatial|MLP|DROP_SNR_ESP": [
+   2.3,
+   false
+  ],
+  "Indoor|spatial|MLP|DROP_RX_MASK": [
+   9.5,
+   true
+  ],
+  "Indoor|spatial|MLP|DROP_AGGREGATES": [
+   3.9,
+   false
+  ],
+  "Indoor|spatial|ELM|DROP_SNR": [
+   0.2,
+   false
+  ],
+  "Indoor|spatial|ELM|DROP_ESP": [
+   3.8,
+   false
+  ],
+  "Indoor|spatial|ELM|DROP_SNR_ESP": [
+   7.5,
+   true
+  ],
+  "Indoor|spatial|ELM|DROP_RX_MASK": [
+   0.9,
+   false
+  ],
+  "Indoor|spatial|ELM|DROP_AGGREGATES": [
+   -1.7,
+   false
+  ]
+ }
+}
